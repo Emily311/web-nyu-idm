@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("Rubik's Cube Wallpaper.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.menu {
+  width: 25%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
+}
+
+@font-face {
+  font-family: 'violet';
+  src: url('./fonts/VioletSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: 2px 2px;
+}
+
+body {
+  background-color: SlateBlue;
+  color: MintCream;
+  text-align: center;
+  font-size: 2em;
+}
+
+.my-fun-class {
+  width: 50%;
+  border: 2px solid limegreen;
+  display: block;
+  margin: auto;
+}
+
+#myDiv {
+  transform: rotateX(150deg);
+  transform: rotateY(130deg);
+  transform: rotateZ(90deg);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
